@@ -1,0 +1,164 @@
+/* ==================================================
+   1. DEFINIÇÃO DE VARIÁVEIS (CORES E FONTES)
+================================================== */
+
+:root {
+    /* MODO CLARO (Padrão) */
+    --font-titulo: "Poppins", serif;
+    --font-principal: "Inter", Arial, sans-serif;
+
+    --cor-primaria: #007bff;
+    --cor-primaria-hover: #0069d9;
+    --cor-secundaria: #6c757d;
+    
+    --cor-texto: #333;
+    --cor-texto-suave: #555;
+    --cor-texto-claro: #666;
+    
+    --cor-fundo-branco: #ffffff;
+    --cor-fundo-claro: #fcfcfc;
+    --cor-fundo-cinza: #f9f9f9;
+    --cor-fundo-destaque: #f0f2f5; /* Usado para botões/cards */
+    --cor-header-bg: rgba(255, 255, 255, 0.95);
+    
+    --cor-footer-bg: #222;
+    --cor-footer-text: #fff;
+    --cor-borda: #e0e0e0;
+    
+    --sombra-card: 0 10px 30px rgba(0, 0, 0, 0.05);
+    --sombra-card-hover: 0 20px 40px rgba(0, 0, 0, 0.12);
+    
+    --icon-filter: none; 
+    
+    /* Variável extra para a grade do fundo (baseada na primária mas bem clara) */
+    --cor-grade-bg: rgba(0, 123, 255, 0.05);
+}
+
+/* MODO ESCURO */
+body.dark-mode {
+    --cor-primaria: #3b82f6; 
+    --cor-primaria-hover: #60a5fa;
+    --cor-secundaria: #adb5bd;
+    
+    --cor-texto: #e1e1e1;        
+    --cor-texto-suave: #b0b0b0;  
+    --cor-texto-claro: #9ca3af;  
+    
+    --cor-fundo-branco: #121212; 
+    --cor-fundo-claro: #0a0a0a;  
+    --cor-fundo-cinza: #1e1e1e;  
+    --cor-fundo-destaque: #18181b; 
+    --cor-header-bg: rgba(18, 18, 18, 0.90);
+    
+    --cor-footer-bg: #000000;
+    --cor-footer-text: #e1e1e1;
+    --cor-borda: #333333;
+
+    --sombra-card: 0 10px 30px rgba(0, 0, 0, 0.5);
+    --sombra-card-hover: 0 20px 40px rgba(0, 0, 0, 0.8);
+    
+    --icon-filter: brightness(0) invert(1); 
+    
+    /* No escuro, a grade fica cor de borda sutil para não ofuscar */
+    --cor-grade-bg: rgba(255, 255, 255, 0.03);
+}
+
+/* ==================================================
+   2. ESTILOS GERAIS
+================================================== */
+
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@100..900&display=swap');
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-principal);
+}
+
+/* Main Background */
+main {
+    height: 100vh;
+    background-color: var(--cor-fundo-branco);
+    /* Usamos a variável criada para a grade para garantir visibilidade nos dois modos */
+    background-image:
+        linear-gradient(var(--cor-grade-bg) 1px, transparent 1px),
+        linear-gradient(90deg, var(--cor-grade-bg) 1px, transparent 1px);
+    background-size: 30px 30px;
+    transition: background-color 0.3s ease; /* Suaviza a troca de tema */
+}
+
+.container-link {
+    display: flex;              
+    flex-direction: column;        
+    align-items: center;         
+    justify-content: start;
+    gap: 30px;                    
+    padding-top: 60px;
+}
+
+.container-link h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--cor-texto); /* Aplicada variável de texto */
+    text-align: center;
+    font-family: var(--font-titulo); /* Aplicada fonte Poppins definida */
+}
+
+/* ==================================================
+   3. ESTILOS DOS LINKS
+================================================== */
+
+.link {
+    display: flex;
+    flex-direction: column;       
+    gap: 15px;
+    list-style: none;
+    width: 100%;
+    max-width: 400px;
+}
+
+.link li {
+    width: 100%;
+}
+
+.link a {
+    display: flex;                 
+    align-items: center;           
+    gap: 15px;                    
+    padding: 12px 20px;
+    
+    /* Fundo adaptável (claro: cinza suave / escuro: cinza quase preto) */
+    background: var(--cor-fundo-destaque); 
+    border: 1px solid var(--cor-borda); /* Borda para definição no escuro */
+    
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--cor-texto); /* Texto adaptável */
+    transition: all 0.2s ease;
+    box-shadow: var(--sombra-card);
+}
+
+.link a:hover {
+    /* No hover, usamos a borda da cor primária para destaque */
+    background: var(--cor-fundo-cinza);
+    border-color: var(--cor-primaria);
+    transform: scale(1.02);      
+    box-shadow: var(--sombra-card-hover);
+}
+
+.link img {
+    width: 32px;                  
+    height: 32px;
+    object-fit: contain;
+    /* Inverte a cor do ícone se for preto no modo escuro */
+    filter: var(--icon-filter);
+}
+
+.link h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--cor-texto-suave); /* Texto secundário */
+}

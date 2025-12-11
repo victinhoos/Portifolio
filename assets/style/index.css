@@ -6,7 +6,7 @@
     VARIÁVEIS DE COR 
 -------------------------------------------------- */
 :root {
-    /* MODO CLARO (PADRÃO) */
+    /* MODO CLARO */
     --font-titulo: "Poppins", serif;
     --font-principal: "Inter", Arial, sans-serif;
 
@@ -34,7 +34,7 @@
     --icon-filter: none; 
 }
 
-/* MODO ESCURO (ATIVADO VIA JS) */
+/* MODO ESCURO */
 body.dark-mode {
     --cor-primaria: #3b82f6; 
     --cor-primaria-hover: #60a5fa;
@@ -61,7 +61,7 @@ body.dark-mode {
 }
 
 /* --------------------------------------------------
-    RESET & GLOBAL
+    GLOBAL
 -------------------------------------------------- */
 * {
     box-sizing: border-box;
@@ -102,7 +102,6 @@ header {
 body.dark-mode header {
     border-bottom: 1px solid var(--cor-borda);
 }
-
 .logo {
     font-family: var(--font-titulo);
     font-size: 26px;
@@ -110,15 +109,12 @@ body.dark-mode header {
     text-decoration: none;
     font-weight: 700;
 }
-
 .header-esquerdo ul {
     display: flex;
     align-items: center;
     list-style: none;
     gap: 32px;
 }
-
-/* Base do Link: Texto */
 .header-esquerdo a {
     display: flex;
     align-items: center;
@@ -129,27 +125,16 @@ body.dark-mode header {
     text-decoration: none;
     transition: 0.2s ease;
 }
-
-/* CORREÇÃO: Aplica a cor primária no texto no hover */
 .header-esquerdo a:hover {
     color: var(--cor-primaria);
 }
-
-/* CORREÇÃO: Aplica o filtro no ícone (que está dentro do link) no hover */
 .header-esquerdo a:hover .icon {
-    /* Filtro para converter preto/cinza (cor padrão) em azul (#007bff) no modo claro */
     filter: invert(24%) sepia(85%) saturate(3015%) hue-rotate(204deg) brightness(97%) contrast(100%);
     transition: filter 0.3s ease; 
 }
-
-/* Modo Escuro: Garante que o ícone fique azul no hover do dark-mode */
 body.dark-mode .header-esquerdo a:hover .icon {
-    /* Filtro para converter branco (cor de --icon-filter dark-mode) em azul (#3b82f6) */
     filter: invert(49%) sepia(91%) saturate(1514%) hue-rotate(200deg) brightness(101%) contrast(92%);
 }
-
-
-/* GARANTE QUE O HOVER DO LOGO E LI SEM LINK AINDA FUNCIONE */
 .logo:hover, 
 .header-esquerdo li:not(:has(a)):hover {
     color: var(--cor-primaria);
@@ -159,7 +144,6 @@ body.dark-mode .header-esquerdo a:hover .icon {
     width: 18px;
     height: 18px;
     filter: var(--icon-filter);
-    /* Adicionamos transição de filter para a mudança suave de cor no hover */
     transition: filter 0.3s ease; 
 }
 
@@ -863,7 +847,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-    /* Header Stack em Mobile */
     header {
         flex-direction: column;
         gap: 20px;
