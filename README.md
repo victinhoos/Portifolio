@@ -1,7 +1,7 @@
 # 🌐 Portfólio – Victor Elias
 
 <div align="center">
-  <img src="https://github.com/victinhoos.png" width="200" style="border-radius: 50%;">
+  <img src="https://github.com/user-attachments/assets/cd97a133-0f54-4bb7-8d7d-532ad2ed0e83">
 </div>
 
 > Meu portfólio profissional desenvolvido do zero utilizando HTML, CSS e JavaScript, com foco em performance, organização e identidade visual própria.
