@@ -167,7 +167,6 @@ body.dark-mode .header-esquerdo a:hover .icon {
     transform: rotate(15deg);
 }
 
-/* Lógica dos ícones do botão */
 #btn-tema .icon-lua { display: block; }
 #btn-tema .icon-sol { display: none; }
 body.dark-mode #btn-tema .icon-lua { display: none; }
@@ -516,7 +515,7 @@ body.dark-mode .card-tecnlogias img {
     padding: 60px 20px;
     background-color: var(--cor-fundo-cinza);
 }
-/* No Dark Mode, vamos usar a cor de destaque para diferenciar a seção */
+
 body.dark-mode #Habilidades {
     background-color: var(--cor-fundo-destaque);
 }
@@ -554,7 +553,7 @@ body.dark-mode #Habilidades {
     justify-content: center;
     width: 130px;  
     height: 130px;
-    background: var(--cor-fundo-branco); /* vira branco ou cinza escuro */
+    background: var(--cor-fundo-branco); 
     border-radius: 12px;
     border: 1px solid transparent; 
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
@@ -859,7 +858,6 @@ footer {
         justify-content: center;
     }
 
-    /* Sobre Mim Responsivo */
     .container-sobre {
         flex-direction: column;
         text-align: center;

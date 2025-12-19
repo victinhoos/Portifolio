@@ -48,15 +48,10 @@ Além disso, o projeto inclui também uma **Link Page personalizada**, semelhant
 
 ### **Design & UX**
 - Layout responsivo  
-- Ícones em SVG  
 - Identidade visual própria  
 
 ### **Outros**
 - Scripts de tema  
 - Estrutura modular de assets  
 - Scroll suave  
-
----
-
-## 📁 Estrutura do Projeto
 
