@@ -1,57 +1,50 @@
-# 🌐 Portfólio – Victor Elias
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/cd97a133-0f54-4bb7-8d7d-532ad2ed0e83">
+<div align="center" style="font-size: 32px; font-weight: bold;">
+  👨🏻‍💻 Victor Elias
 </div>
 
-> Meu portfólio profissional desenvolvido do zero utilizando HTML, CSS e JavaScript, com foco em performance, organização e identidade visual própria.
+<blockquote>
+  <p align="center">Engenheiro de Software. Apaixonado por Matemática, Cibersegurança e Redes de Computadores.</p>
+</blockquote>
 
----
+<p>
+  Me chamo Victor Elias, tenho 21 anos, sou Pernambucano. Possuo técnico em Desenvolvimento de Sistemas pela Escola Técnica Ginásio Pernambucano. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na UNIBRA. Sou apaixonado por tecnologia.
+</p>
 
-## 📖 Sobre o Projeto
+<p align="left">
+    <a href="https://www.linkedin.com/in/SEU_USUARIO_AQUI" target="_blank">
+        <img 
+            alt="LinkedIn" 
+            src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+        />
+    </a>
+</p>
 
-Este portfólio foi criado com o objetivo de apresentar meus projetos, habilidades, experiência profissional e formas de contato de maneira organizada, moderna e responsiva.
+<hr style="border:0; height:2px; background:#007ACC;">
 
-Toda a interface foi construída manualmente, sem frameworks frontend, priorizando:
+<div style="font-size: 32px; font-weight: bold;">
+  Tech Stack
+</div>
+<br>
 
-- **Design limpo**
-- **Experiência intuitiva**
-- **Responsividade completa**
-- **Código leve e otimizado**
-- **Organização modular**
+<div align="center">
+  <h3> 🤖 Linguagens e Tecnologias</h3>
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,bootstrap,php,laravel,wordpress,java,spring,py" />
+  
+  <br> 
+  
+  <h3> ☁️ DevOps & Banco de Dados</h3>
+  <img src="https://skillicons.dev/icons?i=aws,git,docker,mysql,mongodb,postgres,linux" />
+</div>
 
-Além disso, o projeto inclui também uma **Link Page personalizada**, semelhante ao Linktree, para concentrar todos os meus links profissionais.
+<br>
 
----
+<hr style="border:0; height:2px; background:#007ACC;">
 
-## ✨ Funcionalidades
+<div style="font-size: 32px; font-weight: bold;">
+  📊 Estatísticas
+</div>
+<br>
 
-- **Página inicial completa**
-  - Apresentação, foto, descrição e links rápidos.
-- **Seção de Projetos**
-  - Cards com capa, descrição, tecnologias e links diretos.
-- **Página “Sobre Mim”**
-  - Biografia detalhada com foco profissional.
-- **Currículo integrado**
-  - Link para Google Docs.
-- **Modo Claro/Escuro**
-  - Alternância com salvamento automático.
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-### **Frontend**
-- HTML5  
-- CSS3  
-- JavaScript (ES6)
-
-### **Design & UX**
-- Layout responsivo  
-- Identidade visual própria  
-
-### **Outros**
-- Scripts de tema  
-- Estrutura modular de assets  
-- Scroll suave  
-
+<div align="center">
+ ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=victinhoosa&stats_format=bytes)
+</div>
