@@ -44,7 +44,7 @@
   📊 Estatísticas
 </div>
 <br>
-
 <div align="center">
- ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=victinhoosa&stats_format=bytes)
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=victinhoos&show_icons=true&theme=default"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=victinhoos&layout=pie&theme=default"/>
 </div>
