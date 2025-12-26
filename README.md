@@ -1,50 +1,57 @@
-<div align="center" style="font-size: 32px; font-weight: bold;">
-  👨🏻‍💻 Victor Elias
-</div>
-
-<blockquote>
-  <p align="center">Engenheiro de Software. Apaixonado por Matemática, Cibersegurança e Redes de Computadores.</p>
-</blockquote>
-
-<p>
-  Me chamo Victor Elias, tenho 21 anos, sou Pernambucano. Possuo técnico em Desenvolvimento de Sistemas pela Escola Técnica Ginásio Pernambucano. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na UNIBRA. Sou apaixonado por tecnologia.
-</p>
-
-<p align="left">
-    <a href="https://www.linkedin.com/in/SEU_USUARIO_AQUI" target="_blank">
-        <img 
-            alt="LinkedIn" 
-            src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-        />
-    </a>
-</p>
-
-<hr style="border:0; height:2px; background:#007ACC;">
-
-<div style="font-size: 32px; font-weight: bold;">
-  Tech Stack
-</div>
-<br>
+# 🌐 Portfólio – Victor Elias
 
 <div align="center">
-  <h3> 🤖 Linguagens e Tecnologias</h3>
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,bootstrap,php,laravel,wordpress,java,spring,py" />
-  
-  <br> 
-  
-  <h3> ☁️ DevOps & Banco de Dados</h3>
-  <img src="https://skillicons.dev/icons?i=aws,git,docker,mysql,mongodb,postgres,linux" />
+  <img src="[https://private-user-images.githubusercontent.com/153466179/528792485-cd97a133-0f54-4bb7-8d7d-532ad2ed0e83.gif?jwt=eyJ0eXAiOiJhttps://github.com/victinhoos/Portifolio/issues/1#issue-3748957325](https://github.com/user-attachments/assets/cd97a133-0f54-4bb7-8d7d-532ad2ed0e83)" width="200" style="border-radius: 50%;">
 </div>
 
-<br>
+> Meu portfólio profissional desenvolvido do zero utilizando HTML, CSS e JavaScript, com foco em performance, organização e identidade visual própria.
 
-<hr style="border:0; height:2px; background:#007ACC;">
+---
 
-<div style="font-size: 32px; font-weight: bold;">
-  📊 Estatísticas
-</div>
-<br>
-<div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=victinhoos&show_icons=true&theme=default"/>
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=victinhoos&layout=pie&theme=default"/>
-</div>
+## 📖 Sobre o Projeto
+
+Este portfólio foi criado com o objetivo de apresentar meus projetos, habilidades, experiência profissional e formas de contato de maneira organizada, moderna e responsiva.
+
+Toda a interface foi construída manualmente, sem frameworks frontend, priorizando:
+
+- **Design limpo**
+- **Experiência intuitiva**
+- **Responsividade completa**a
+- **Código leve e otimizado**
+- **Organização modular**
+
+Além disso, o projeto inclui também uma **Link Page personalizada**, semelhante ao Linktree, para concentrar todos os meus links profissionais.
+
+---
+
+## ✨ Funcionalidades
+
+- **Página inicial completa**
+  - Apresentação, foto, descrição e links rápidos.
+- **Seção de Projetos**
+  - Cards com capa, descrição, tecnologias e links diretos.
+- **Página “Sobre Mim”**
+  - Biografia detalhada com foco profissional.
+- **Currículo integrado**
+  - Link para Google Docs.
+- **Modo Claro/Escuro**
+  - Alternância com salvamento automático.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+### **Frontend**
+- HTML5  
+- CSS3  
+- JavaScript (ES6)
+
+### **Design & UX**
+- Layout responsivo  
+- Identidade visual própria  
+
+### **Outros**
+- Scripts de tema  
+- Estrutura modular de assets  
+- Scroll suave  
+
