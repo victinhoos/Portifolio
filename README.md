@@ -2,7 +2,7 @@
 
 <div align="center">
   <img 
-    src="https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPO/main/assets/nome-da-imagem.png"
+    src="[https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPO/main/assets/nome-da-imagem.png](https://private-user-images.githubusercontent.com/153466179/528792485-cd97a133-0f54-4bb7-8d7d-532ad2ed0e83.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjY3OTAyNzMsIm5iZiI6MTc2Njc4OTk3MywicGF0aCI6Ii8xNTM0NjYxNzkvNTI4NzkyNDg1LWNkOTdhMTMzLTBmNTQtNGJiNy04ZDdkLTUzMmFkMmVkMGU4My5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjI2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIyNlQyMjU5MzNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mODcyZThlMmEyZmU5MjYxYmQ1ZTViNTMwZjQxYWU4YzBhYWVmNWU1Y2M2ODk2OTQ0YjI5NGM1ZGQ3NGZhY2NkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.S4DXbW9pXRn-1-jAySwS1xF_XzdDq4VjuTaIMfHp3o4)"
     width="200"
     style="border-radius: 50%;"
   >
