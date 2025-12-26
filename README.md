@@ -1,7 +1,7 @@
 # 🌐 Portfólio – Victor Elias
 
 <p align="center">
-  <img src="[assets/banner.gif](https://github.com/user-attachments/assets/cd97a133-0f54-4bb7-8d7d-532ad2ed0e83)" alt="Banner do Portfólio" width="100%">
+  <img src="https://github.com/user-attachments/assets/cd97a133-0f54-4bb7-8d7d-532ad2ed0e83">
 </p>
 
 
